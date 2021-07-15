@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h1 class="main-tittle">Create account</h1>
+        </div>
+        <form class="form">
+            <div class="firstname">
+                <label for="firstname">First Name</label>
+                <div class="first-username-error"></div>
+                <input id="first-username" type="text" placeholder="first name">
+            </div>
+            <div class="lastname">
+                <label for="lastname">Last Name</label>
+                <div class="last-username-error"></div>
+                <input id="last-username" type="text" placeholder="last name">
+            </div>
+            <div class="username">
+                <label for="username">User Name</label>
+                <div class="username-error"></div>
+                <input id="username" type="text" placeholder="user name">
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <div class="email-error"></div>
+                <input id="email" type="email" placeholder="hello@email.com">
+            </div>
+            <div class="password">
+                <label for="password"> Password</label>
+                <div class="password-error"></div>
+                <input id="password" type="password" placeholder="password">
+            </div>
+
+            <div class="password2">
+                <label for="password2"> Password</label>
+                <div class="password2-error"></div>
+                <input id="password2" type="password" placeholder="password">
+            </div>
+            <div class="submit">
+                <button class="submit-button">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
