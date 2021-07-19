@@ -1,61 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto";
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #1a2435;
+    background: #2f6eda;
 }
 
-.container{
+.container {
     width: 380px;
-    height: 650px;
+    height: 700px;
     background: #e6f0f7;
     border-radius: 5px;
     color: rgb(243, 228, 209);
 }
 
-.tittle{
+.tittle {
     height: 10vh;
     background: #a82513;
     border-radius: 5px 5px 0px 0px;
 }
-.main-tittle{
+.main-tittle {
     font-weight: 300;
     font-size: 1.7rem;
     padding-left: 30px;
     padding-top: 20px;
 }
 
-.form{
-    padding-top: 25px ;
+.form {
+    padding-top: 25px;
 }
 
-input{
+input {
     width: 85%;
     height: 35px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 15px;
     margin-left: 30px;
 }
-input:focus{
+input:focus {
     outline-color: #0d131d;
 }
 
-label{
+label {
     color: #0d131d;
     padding-left: 30px;
 }
+.error{
+    color: #ff0000;
+    font-size: 14px;
+    margin-left: 30px;
+}
 
-.submit-button{
+.submit-button {
     color: rgb(243, 228, 209);
     background: #a82513;
     width: 120px;
@@ -63,7 +68,10 @@ label{
     margin: auto;
     display: block;
     font-size: 1rem;
-    border:none;
+    border: none;
     border-radius: 5px;
     margin-top: 10px;
+}
+.submit-button:hover{
+    background: #fa533d;
 }
